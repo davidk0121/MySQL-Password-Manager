@@ -26,7 +26,7 @@ WebKey Manager is a simple Python application that allows you to manage website 
 ##  Update 
 
 2. Update MySQL connection details:
-   Open DatabasePM.py and modify the connection parameters in the DatabasePM class.
+   \nOpen DatabasePM.py and modify the connection parameters in the DatabasePM class.
 
    ```python
    # Replace these values with your MySQL server credentials
