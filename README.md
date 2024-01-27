@@ -18,8 +18,20 @@ WebKey Manager is a simple Python application that allows you to manage website 
 
 ## Installation
 
-1. Clone the repository:
+1. Install the required dependencies:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   pip install mysql-connector-python
+
+##  Update 
+
+2. Update MySQL connection details:
+   Open DatabasePM.py and modify the connection parameters in the DatabasePM class.
+
+   ```python
+   # Replace these values with your MySQL server credentials
+   connection = mysql.connector.connect(
+       user = "your-username",
+       password = "your-password",
+       database = "passwords"
+   )
