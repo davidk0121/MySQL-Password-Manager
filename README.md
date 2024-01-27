@@ -1,4 +1,5 @@
-# WebKey Manage - ## MySQL Password Manager
+# WebKey Manage 
+## MySQL Password Manager
 
 WebKey Manager is a simple Python application that allows you to manage website credentials using MySQL as the backend database.
 
